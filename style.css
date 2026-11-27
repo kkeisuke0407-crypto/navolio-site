@@ -124,7 +124,7 @@ a:hover .arw--out{transform:rotate(-45deg) translateX(4px)}
 .fv__lead{font-size:clamp(15px,1.25vw,17px);color:var(--ink-2);line-height:2.05}
 .fv__btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
 .fv__fig{position:relative}
-.fv__fig img{width:100%;height:auto}
+.fv__fig img{width:100%;height:auto;border-radius:24px;box-shadow:0 30px 60px -36px rgba(20,32,46,.45)}
 .fv__tate{
   position:absolute;right:20px;top:50%;transform:translateY(-50%);white-space:nowrap;
   writing-mode:vertical-rl;font-family:var(--mincho);font-weight:500;font-size:14px;letter-spacing:.5em;color:var(--ink-3);
