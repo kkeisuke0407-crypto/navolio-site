@@ -147,28 +147,6 @@ a:hover .arw--out{transform:rotate(-45deg) translateX(4px)}
 .sec__title{margin-top:18px;font-family:var(--mincho);font-weight:800;font-size:clamp(30px,3.6vw,48px);line-height:1.45;letter-spacing:.05em}
 .sec__lead{margin-top:22px;color:var(--ink-2);font-size:16px}
 
-/* ---------- CASES ---------- */
-.cases{border-top:1px solid var(--line)}
-.cases__list{margin-top:clamp(32px,4vw,52px);border-top:1.5px solid var(--ink)}
-.cases__list a{
-  position:relative;display:grid;grid-template-columns:52px minmax(0,1fr) auto 28px;align-items:center;gap:20px;
-  padding:26px 8px;border-bottom:1px solid var(--line);
-  transition:background .3s var(--ease),padding .3s var(--ease);
-}
-.cases__list a:hover{background:var(--paper-2);padding-left:20px;padding-right:20px}
-.cases__n{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--shu);letter-spacing:.1em}
-.cases__q{word-break:auto-phrase;text-wrap:balance;font-family:var(--mincho);font-weight:700;font-size:clamp(20px,2.2vw,28px);line-height:1.4;letter-spacing:.04em}
-.cases__a{display:inline-flex;align-items:center;min-height:34px;padding:0 16px;border:1px solid var(--line-2);border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.06em;white-space:nowrap;transition:background .3s,border-color .3s,color .3s}
-.cases__list a:hover .cases__a{background:var(--shu);border-color:var(--shu);color:#fff}
-.cases__list .arw{justify-self:end;color:var(--ink-3)}
-.cases__list a:hover .arw{color:var(--shu)}
-@media (max-width:600px){
-  .cases__list a{grid-template-columns:36px minmax(0,1fr) 20px;row-gap:10px;padding:20px 4px}
-  .cases__q{font-size:17px}
-  .cases__a{grid-column:2;grid-row:2;justify-self:start;min-height:28px;padding:0 12px;font-size:12px}
-  .cases__list .arw{grid-column:3;grid-row:1 / span 2}
-}
-
 /* ---------- BUSINESS ---------- */
 .biz{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .biz__grid{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:clamp(32px,6vw,96px)}
