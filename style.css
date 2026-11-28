@@ -247,6 +247,7 @@ a:hover .arw--out{transform:rotate(-45deg) translateX(4px)}
 .info dd{font-size:15.5px}
 .info dd li{position:relative;padding-left:18px}
 .info dd li::before{content:"";position:absolute;left:0;top:.95em;width:8px;height:1.5px;background:var(--shu)}
+.info .nw{display:inline-block}
 .info a{border-bottom:1px solid currentColor}
 .info a:hover{color:var(--shu)}
 @media (max-width:960px){.company__grid{grid-template-columns:1fr}}
